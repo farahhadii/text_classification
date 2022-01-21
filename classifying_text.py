@@ -1,3 +1,11 @@
+# The filename "QA_Pairs9.txt" contains questions and answers generated from the Game of Thrones TV series across eight seasons created by a research team. 
+# The first task counted the questions and answer pairs in the "QA_Pairs9.txt" file. The second task included extracting all questions and answers from "QA_Pairs9.txt" and 
+# outputting the results into two new files, 'extracting_questions.txt' and 'extracting_Answers.txt'.
+# The third task consisted of finding the term frequency of each word found in 'extracting_questions.txt' and 'extracting_Answers.txt' and outputting the frequency results in 
+# "frequency_of_answers.txt" and "frequency_of_questions.txt". 
+# Finally, the final task ranked the decreasing order of the frequency of each word from the 'extracting_Answers.txt' file and
+# produced the results in a new file called 'decreasing_frequency_of_answers.txt.' 
+
 def count_pairs(file_name):
     
     with open(file_name, encoding='utf-8-sig') as nameHandle:
